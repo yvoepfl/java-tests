@@ -78,7 +78,7 @@ class Rare extends Timbre {
 		return nbEx;
 	}
 	public String toString(){
-		return "Timbre de code " +getCode() +" datant de " +getAnnee() +" (provenance " +getPays() +") ayant pour valeur faciale " +getValeurFaciale() +" francs"
+		return "Timbre de code " +getCode() +" datant de " +getAnnee() +" (provenance " +getPays() +") ayant pour valeur " +getValeurFaciale() +" francs"
 				+"\nNombre d’exemplaires -> " +getExemplaires();
 	}
 }
@@ -92,7 +92,7 @@ class Commemoratif extends Timbre {
 		return prix;
 	}
 	public String toString(){
-		return "Timbre de code " +getCode() +" datant de " +getAnnee() +" (provenance " +getPays() +") ayant pour valeur faciale " +getValeurFaciale() +" francs"
+		return "Timbre de code " +getCode() +" datant de " +getAnnee() +" (provenance " +getPays() +") ayant pour valeur " +getValeurFaciale() +" francs"
 				+"\nTimbre celebrant un evenement";
 	}
 }
